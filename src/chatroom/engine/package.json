@@ -1,0 +1,10 @@
+{
+  "name": "chatroom",
+  "version": "0.0.0",
+  "description": "chatroom",
+  "main": "server.js",
+  "author": {
+    "name": "yudielgc",
+    "email": "yudielgc@gmailc.om"
+  }
+}
