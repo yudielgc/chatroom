@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "engine", "engine\engine.njsproj", "{B04CA9F0-45AE-44F0-A35E-902BD1BCE406}"
 EndProject
-Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "node", "node\node.njsproj", "{E68C5A00-17C8-488A-903B-FC9E0FBB398C}"
+Project("{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}") = "node-chatroom", "node-chatroom\node-chatroom.njsproj", "{E68C5A00-17C8-488A-903B-FC9E0FBB398C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
