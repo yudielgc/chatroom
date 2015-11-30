@@ -1,6 +1,9 @@
 ﻿body
   padding: 50px
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif
+  font-size: 14px
+html, body
+  font-size: 14px  
 a
   color: #00B7FF
 
@@ -17,4 +20,21 @@ html, body
   height: 60px  
 
 .footer
-  background-color: #f5f5f5  
+  background-color: #f5f5f5
+
+@media (min-width: 768px) {
+  body {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 480px) {
+  body {
+    font-size: 22px;
+  }
+  h1 {
+    font-size: 2em;
+  }
+}
