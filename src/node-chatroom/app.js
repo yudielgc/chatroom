@@ -35,6 +35,13 @@ app.get('/users', user.list);
 var chatServer = http.createServer(app);
 var io = require('socket.io')(chatServer);
 
+io.on('connection', function (socket){
+	console.log('a user connected');
+	socket.on('disconnect', function (){
+		console.log('user disconnected');
+	})
+});
+
 chatServer.listen(app.get('port'), function () {
     console.log('Express server listening on port ' + app.get('port'));
 });
