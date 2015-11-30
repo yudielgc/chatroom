@@ -1,4 +1,4 @@
-# chatroom
+# chatroom #
 
 A chatroom with node.js based on an example by Rami Sayar on MSDN Blogs
 
@@ -13,5 +13,21 @@ Then, I added these features:
 - Private messages
 
 This example can be tested [here](http://ec2-54-85-218-76.compute-1.amazonaws.com:3000/)
+
+## Prerequisites ##
+
+1. `Nodejs` installed
+
+## Getting Started ##
+
+1. Clone the repo: `git clone https://github.com/yudielgc/chatroom.git`.
+2. Navigate to the repo directory and download dependencies: `npm install`
+
+## Debugging Locally ##
+
+1. Two ways to run the app:
+	1. Navigate to the repo directory and run: `node app.js`
+	2. Navigate to the repo directory and run: `DEBUG=my-application ./bin/www`
+2. Open a browser and navigate to: `http://localhost:3000`
 
 ### Work In Progress...
