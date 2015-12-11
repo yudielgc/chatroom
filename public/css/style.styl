@@ -22,6 +22,29 @@ html, body
 .footer
   background-color: #f5f5f5
 
+#light-box
+    width: 500px;
+    background-color: #fff;
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    top: 200px;
+    left: 185px;
+    color: #000;
+    border-radius: 4px;
+    padding: 20px 40px
+
+#overlay
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    height: 1496px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;  
+
 @media (min-width: 768px) {
   body {
     font-size: 18px;
