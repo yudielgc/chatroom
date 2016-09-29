@@ -12,7 +12,7 @@ Then, I added these features:
 - Username displayed
 - Private messages - [WIP]
 
-This example can be tested [here](http://ec2-52-23-187-7.compute-1.amazonaws.com:3000/)
+This example can be tested [here](https://chatroom-nodejs.herokuapp.com/)
 
 **Note:** *Both examples run on AWS instance*
 
